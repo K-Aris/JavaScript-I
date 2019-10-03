@@ -88,7 +88,7 @@ console.log(`${lastCar.car_make} & ${lastCar.car_model}`);
 // // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
 
-for (i = 0; i < inventory.length; i++) {
+for (var i = 0; i < inventory.length; i++) {
   carModels.push(inventory[i].car_model); 
 }
 
@@ -99,7 +99,7 @@ console.log(carModels.sort());
 let carYears = [];
 
 for (i = 0; i < inventory.length; i++) {
-  carYears.push(inventory[i].car_year)
+  carYears.push(inventory[i].car_year); 
 }
 console.log(carYears);
 
