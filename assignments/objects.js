@@ -102,19 +102,19 @@ let  parent = {
   name: "Susan",
   age: 70, 
   speak() { 
-    console.log(`I am ${this.name}`); 
+    return(`I am ${this.name}`); 
   },
   child: {
     name: "George",
     age: 50, 
     speak() { 
-      console.log(`I am ${this.name}`);
+      return(`I am ${this.name}`);
     },
     grandchild: {
       name: "Sam",
       age: 30,
       speak() { 
-        console.log(`I am ${this.name}`);
+        return(`I am ${this.name}`);
       },
     }
   }
