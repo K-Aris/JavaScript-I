@@ -14,7 +14,7 @@ myFunction();
 // };
 // anotherFunction("Example");
 
-let anotherFunction = param => {console.log(param)}; 
+let anotherFunction = param => {console.log(param);}; 
 
 anotherFunction("Example"); 
 
